@@ -1,0 +1,121 @@
+body{
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+/* NAVBAR CSS */
+
+/* Add a black background color to the top navigation */
+.navbar {
+  font-size: 1.5em;
+  background-color: darkred;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: white;
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+
+  border-radius: 20px;
+}
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+#slidehead{
+  height: 100%;
+  width: 100%;
+  background-color: darkred;
+  padding: 30px;
+  text-align: center;
+}
+h1{
+  color: white;
+  font-size: 6rem;
+}
+h2{
+  color: white;
+  font-family: monospace;
+  font-size: 2rem;
+}
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.image__img {
+    display: inline-block;
+    width: 30%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    color: #fff0f5;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(10px);
+}
+
+.image__overlay--primary {
+    background: #16161D;
+}
+
+.image__overlay > * {
+    transform: translateY(40px);
+    transition: transform 0.10s;
+}
+
+.image__overlay:hover {
+    opacity: 0.5;
+    border-radius: 40px;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+button{
+  padding: 10px;
+  display: inline-block;
+  background: none;
+  outline: none;
+  border: none;
+  maring-left: 50px;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+}

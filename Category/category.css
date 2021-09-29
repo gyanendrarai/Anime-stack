@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+  background-size: cover;
+  background-repeat: space;
+}
+/* Add a black background color to the top navigation */
+.navbar {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: teal;
+  background-color: white;
+  border-radius: 20px;
+}
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+button{
+  height :300px;
+  width : 100%;
+  color : white;
+
+  background-color: black;
+  text-align: center;
+  font-size: 500%;
+  border-color: black;
+}
+button:hover{
+  background-color: darkred;
+  opacity : 30%;
+  color : white;
+  font-size: 400%;
+}
+button:focus{
+  border-color : black;
+  font-size : 400%;
+}
+#appear_iframe{
+  display: none;
+}
+#action_iframe{
+  width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,106 @@
+<table>
+  <thead>
+    <th>Ankush Garewal</th>
+    <th>Karan Biswas</th>
+    <th>Priyansh Yadav</th>
+  </thead>
+
+  <tbody>
+    <td onmouseover="imgtext(this.class)" class="one">
+      <img src="1.jpg" alt="Member" class="mem alpha">
+      <p><span id="one">CEO</span></p>
+
+      <span>
+        <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-google fa-2x"></i></a>
+      </span>
+    </td>
+
+
+
+    <td onmouseover="imgtext(this.class)" class="mem beta">
+      <img src="1.jpg" alt="Member" id="img2">
+      <p><span id="two">Founder</span></p>
+      <p>
+      <span>
+        <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-google fa-2x"></i></a>
+      </span></p>
+    </td>
+
+
+    <td onmouseover="imgtext(this.class)" class="mem gamma">
+      <img src="1.jpg" alt="Member" id="img3">
+      <p><span id="three" class="imgtxt">Founder</span></p>
+      <p>
+      <span>
+        <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-google fa-2x"></i></a>
+      </span></p>
+    </td>
+
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+body{
+background-image : repeating-radial-gradient(black, red, black, red);
+ background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  color : black;
+  animation: fullanimate 1s 1;
+  text-overflow: clip;
+  }
+  @keyframes fullanimate{
+    from{
+      opacity : 0%;
+    }
+    to{
+      opacity: 100%;
+    }
+  }
+h1{
+  color : gold;
+  font-size: 7em;
+  text-align: center;
+  animation: h1move 4s 1;
+  font-family: cursive;
+}
+@keyframes h1move {
+  from{
+    color: orange;
+    font-size: 5em;
+  }
+  to{
+    color : gold;
+    font-size: 7em;
+  }
+}
+table{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top : 20px;
+}
+th{
+  font-size: 3em;
+  color : lightblue;
+  padding: 30px;
+}
+td{
+  text-align: center;
+}
+td img{
+  width : 100%;
+  height : 500px;
+  border-radius: 70px;
+}

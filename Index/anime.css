@@ -1,0 +1,332 @@
+body{
+  background-image: url("C:\\Users\\raigy\\Desktop\\UDEMY\\WEB DEV\\just me\\Anime Website\\Index\\1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-timing-function: ease-in-out;
+  color : white;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  color  : white;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: teal;
+  background-color: white;
+  border-radius: 20px;
+}
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+#head1{
+  margin-top : 300px;
+  text-align: center;
+  font-size: 20vh;
+  color : white;
+  text-shadow: 10px -10px 10px black;
+  height: 50%;
+}
+#head2{
+  text-align : center;
+  font-size : 90px;
+  color : white;
+  font-weight: bolder;
+  text-shadow: 10px -10px 10px black;
+}
+button{
+  align-items: center;
+  height : 10px;
+  background-color: white;
+  width : 40px;
+  border-radius: 60px;
+  margin-bottom : 0px;
+  outline: none;
+  opacity: 50%;
+}
+#buttons{
+  margin-left : 45%;
+}
+#b1, #b2, #b3, #b4{
+  background-color: white;
+  opacity : 30%;
+}
+
+
+/* NAVBAR CSS */
+
+/* Add a black background color to the top navigation */
+.navbar {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: teal;
+  background-color: white;
+  border-radius: 20px;
+}
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+.fab{
+  color : teal;
+}
+.fab:hover{
+  color : red;
+}
+hr{
+  opacity : 2%;
+}
+/* footer */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+.thumb{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width : 100%;
+  height : 300px;
+  display: inline-block;
+}
+.thmbimg{
+  width : 32%;
+  height : 100%;
+  justify-content: space-between;
+}
+#thmbbtn{
+  background-color: red;
+  width : 500px;
+  height : 20px;
+
+}
+section {
+  width: 100%;
+  display: inline-block;
+  background-color: transparent;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background: #502e1aa3;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color: black;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  white;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:700;
+	text-decoration: none;
+	color:  black;
+}
+.footer-distributed .footer-links a:hover{
+  background-color: #63505020;
+  border-radius: 20px;
+}
+.footer-distributed .footer-company-name{
+	color:  black;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #ffffff14;
+	color: darkred;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+.footer-distributed .footer-center i:hover{
+  background-color: white;
+  height: 45px;
+}
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #bcd5d6;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: black;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  black;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  none;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

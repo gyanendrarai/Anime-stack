@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="join.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="navbar" id="mynav">
+  <a href="#"><i class="fab fa-artstation fa-1x"><hr>  Anime Stack</i></a>
+
+  <a href="#news" style="float:right"><i class="fas fa-hands-helping">  Become One Of Us</i></a>
+  <a href="C:\Users\raigy\Desktop\UDEMY\WEB DEV\just me\Anime Website\Team\team.html" style="float:right"><i class="fas fa-users">  Our Team</i></a>
+  <a href="C:\Users\raigy\Desktop\UDEMY\WEB DEV\just me\Anime Website\Category\Category.html" style="float:right"><i class="fas fa-book-open">  Category</i></a>
+  <a href="C:\Users\raigy\Desktop\UDEMY\WEB DEV\just me\Anime Website\Index\anime.html" class="active" style="float:right"><i class="fas fa-home">  Home</i></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fas fa-bars" style="float:right"></i>
+  </a>
+</div>
+
+    <div id="SignUp" style="display : block">
+                  <form class="login" action="index.html" method="post">
+                    <button type="button" name="button" class="formMain">Sign Up</button>
+                    <button type="button" name="button"  class="formMain" id="log" onclick="myfunc('Login')">Log in</button>
+
+                      <label for="fname" style="display: block" class="formdata">First Name</label>
+                      <input type="text" name="fname" placeholder="Karan" class="formdata" required>
+
+
+
+                      <label for="lname" style="display: block" class="formdata">Last Name</label>
+                      <input type="text" name="lname" placeholder="Vishisht" class="formdata">
+
+
+
+                      <label for="email" style="display: block" class="formdata">Email</label>
+                      <input type="email" name="mail" placeholder="abc@gmail.com" class="formdata" required>
+
+                      <label for="password" style="display: block" class="formdata">Password</label>
+                      <input type="password" name="password" placeholder="aB!123" required>
+
+                      <label for="Country" style="display : block">Country</label>
+                      <select class="country" name="Country">
+                        <option value="Armenia">Armenia</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Eritria">Eritria</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Hungary">Hungary</option>
+                        <option value="India">India</option>
+                      </select>
+                      <div id="formbtncontainer" style="display : block">
+                          <button type="button" name="button"  class="formbtn">Cancel</button>
+                          <button type="submit" name="button"  class="formbtn">Register</button>
+                      </div>
+                </form>
+    </div>
+
+    <div id="Login" style="display : none">
+                  <form class="login" action="index.html" method="post">
+                    <button type="button" name="button" class="formMain" id="sign" onclick="myfunc('SignUp')">Sign Up</button>
+                    <button type="button" name="button" class="formMain">Log in</button>
+
+
+
+                      <label for="email" style="display: block" class="formdata">Email</label>
+                      <input type="email" name="mail" placeholder="abc@gmail.com" class="formdata">
+
+                      <label for="password" style="display: block" class="formdata">Password</label>
+                      <input type="password" name="password" placeholder="aB!123">
+
+                      <a href="#" id="forgot">Forgot Password</a>
+
+                      <div id="formbtncontainer" style="display : block">
+                          <button type="button" name="button"  class="formbtn">Cancel</button>
+                          <button type="submit" name="button"  class="formbtn">Login</button>
+                      </div>
+                </form>
+    </div>
+    <script type="text/javascript" src="join.js">
+
+    </script>
+  </body>
+</html>
